@@ -18,6 +18,10 @@ collection
 3.4
 file:///home/kavia/.pub-cache/hosted/pub.dev/collection-1.19.1/
 file:///home/kavia/.pub-cache/hosted/pub.dev/collection-1.19.1/lib/
+crypto
+3.4
+file:///home/kavia/.pub-cache/hosted/pub.dev/crypto-3.0.7/
+file:///home/kavia/.pub-cache/hosted/pub.dev/crypto-3.0.7/lib/
 cupertino_icons
 3.1
 file:///home/kavia/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8/
@@ -34,6 +38,10 @@ file
 3.0
 file:///home/kavia/.pub-cache/hosted/pub.dev/file-7.0.1/
 file:///home/kavia/.pub-cache/hosted/pub.dev/file-7.0.1/lib/
+fixnum
+3.1
+file:///home/kavia/.pub-cache/hosted/pub.dev/fixnum-1.1.1/
+file:///home/kavia/.pub-cache/hosted/pub.dev/fixnum-1.1.1/lib/
 flutter_dotenv
 2.12
 file:///home/kavia/.pub-cache/hosted/pub.dev/flutter_dotenv-5.2.1/
@@ -186,6 +194,14 @@ test_api
 3.5
 file:///home/kavia/.pub-cache/hosted/pub.dev/test_api-0.7.4/
 file:///home/kavia/.pub-cache/hosted/pub.dev/test_api-0.7.4/lib/
+typed_data
+3.5
+file:///home/kavia/.pub-cache/hosted/pub.dev/typed_data-1.4.0/
+file:///home/kavia/.pub-cache/hosted/pub.dev/typed_data-1.4.0/lib/
+uuid
+3.0
+file:///home/kavia/.pub-cache/hosted/pub.dev/uuid-4.5.2/
+file:///home/kavia/.pub-cache/hosted/pub.dev/uuid-4.5.2/lib/
 vector_math
 2.14
 file:///home/kavia/.pub-cache/hosted/pub.dev/vector_math-2.1.4/
