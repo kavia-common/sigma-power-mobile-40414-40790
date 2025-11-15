@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:sigma_style_flutter_mobile_frontend/main.dart';
 
 void main() {
-  testWidgets('SigmaApp builds MaterialApp', (WidgetTester tester) async {
-    // The main() bootstraps providers; here we only validate app type.
-    // Build a minimal MaterialApp to satisfy the test quickly.
-    await tester.pumpWidget(const MaterialApp(home: SizedBox()));
-    expect(find.byType(MaterialApp), findsOneWidget);
+  testWidgets('App generation message displayed', (WidgetTester tester) async {
+    await tester.pumpWidget(const MyApp());
+
+    expect(find.text('sigma_style_flutter_mobile_frontend App is being generated...'), findsOneWidget);
+    expect(find.byType(CircularProgressIndicator), findsOneWidget);
+  });
+
+  testWidgets('App bar has correct title', (WidgetTester tester) async {
+    await tester.pumpWidget(const MyApp());
+
+    expect(find.text('sigma_style_flutter_mobile_frontend'), findsOneWidget);
   });
 }

@@ -8,9 +8,7 @@ plugins {
 android {
     namespace = "com.example.sigma_style_flutter_mobile_frontend"
     compileSdk = flutter.compileSdkVersion
-    // Pin NDK version to match plugin requirements (shared_preferences_android, sqflite_android)
-    // This avoids CI/Release build failures due to NDK mismatch.
-    ndkVersion = "27.0.12077973"
+    ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
