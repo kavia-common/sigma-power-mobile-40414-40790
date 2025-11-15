@@ -1,0 +1,1 @@
+ /home/kavia/workspace/code-generation/sigma-power-mobile-40414-40790/sigma_style_flutter_mobile_frontend/.dart_tool/flutter_build/1e7746580b02dab5c169d6d57c7f57ff/native_assets.json: 
