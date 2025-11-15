@@ -61,6 +61,7 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  # Only list existing assets. No custom font files are referenced.
   assets:
     - .env
     - assets/

@@ -1,8 +1,8 @@
-Place your font files under assets/fonts/:
-- Inter-Regular.ttf
-- Inter-Medium.ttf
-- Inter-SemiBold.ttf
-- Inter-Bold.ttf
-- Inter-ExtraBold.ttf
+This project does not bundle custom font files by default.
 
-If fonts are not provided, Flutter will fallback to default. The theme references 'Inter'.
+- The theme uses the system default font and does NOT require any TTF assets.
+- If you later choose to add custom fonts, place them under assets/fonts/ and update pubspec.yaml accordingly.
+
+Currently included assets:
+- .env (optional; loaded if present)
+- assets/ (folder for general assets; currently empty)
